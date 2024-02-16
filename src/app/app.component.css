@@ -1,0 +1,45 @@
+h1 {
+  font-size: 40px;
+  line-height: 0.8em;
+  color: #90BFE0;
+}
+
+.container-app {
+  background-color: #90BFE0;
+  height: 100vh;
+}
+
+.container-qr {
+  background-color: #ffffff;
+  border-radius: 25px;
+  padding: 60px 60px;
+  margin: 3em;
+  margin-top: 3em;
+}
+
+.container-qr-data {
+  padding: 10px;
+  margin: 1em;
+}
+
+.container-whatsapp-link {
+  display: flex;
+
+}
+
+.container-btn-copy {
+  margin-left: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-qrs {
+  flex-wrap: wrap;
+  padding: 60px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #7fa6c1;
+  border-radius: 25px;
+}

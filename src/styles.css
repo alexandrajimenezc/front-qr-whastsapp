@@ -1,1 +1,60 @@
-/* You can add global styles to this file, and also import other style files */
+body,html{
+  margin: 0;
+  padding: 0;
+  background-color: #90BFE0;
+}
+.container-btn {
+  margin: 2em 3em 1em 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.column-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.row-form {
+  flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-container {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  /* background-color: antiquewhite; */
+  width: 47%;
+  margin: 0.3em;
+}
+.input-container--items{
+  display: flex;
+  flex-direction: column;
+  /* background-color: antiquewhite; */
+  width: 28%;
+  justify-content: center;
+  align-items: center;
+}
+.container-btn-items{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+input,
+select,
+textarea {
+  /* width: 50%; */
+  border: 0.5px solid rgba(0, 0, 0, 0.2) ;
+  border-radius: 8px;
+  width: 100%;
+  padding: 8px;
+}
+h1 {
+  font-size: 40px;
+  line-height: 0.8em;
+  color:#90BFE0;
+}
+
+
