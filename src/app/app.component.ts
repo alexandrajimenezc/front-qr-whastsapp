@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SafeUrl } from '@angular/platform-browser';
 import { RouterOutlet } from '@angular/router';
 import { QRCodeModule } from 'angularx-qrcode';
@@ -8,7 +8,7 @@ import { QRCodeModule } from 'angularx-qrcode';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, QRCodeModule, CommonModule, FormsModule],
+  imports: [RouterOutlet, QRCodeModule, CommonModule, FormsModule,ReactiveFormsModule],
 
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',

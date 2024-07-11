@@ -1,3 +1,5 @@
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '../node_modules/bootstrap-icons/font/bootstrap-icons.min.css';
 body,html{
   margin: 0;
   padding: 0;
@@ -50,11 +52,6 @@ textarea {
   border-radius: 8px;
   width: 100%;
   padding: 8px;
-}
-h1 {
-  font-size: 40px;
-  line-height: 0.8em;
-  color:#90BFE0;
 }
 
 
